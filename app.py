@@ -46,8 +46,6 @@ server.wsgi_app = WhiteNoise(server.wsgi_app, root='static/')
      )
 
 
-# uncomment the following line to run in Google Colab
-app.run_server(mode='inline', port=8030)
 
 # uncomment the following lines to run in Browser via command line/terminal
 #if __name__ == '__main__':
